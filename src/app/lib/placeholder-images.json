@@ -1,3 +1,4 @@
+
 {
   "placeholderImages": [
     {
@@ -55,10 +56,22 @@
       "imageHint": "pink roses"
     },
     {
-      "id": "custom-base",
-      "description": "Custom Bouquet Studio",
-      "imageUrl": "https://picsum.photos/seed/custom/800/600",
-      "imageHint": "flower workshop"
+      "id": "red-pink",
+      "description": "Red and Pink Bouquet",
+      "imageUrl": "https://res.cloudinary.com/dh9mpwpxx/image/upload/v1774030526/WhatsApp_Image_2026-03-20_at_11.33.23_PM_2_iq0msf.jpg",
+      "imageHint": "red roses"
+    },
+    {
+      "id": "munchy-violet",
+      "description": "Munchy Violet Bouquet",
+      "imageUrl": "https://res.cloudinary.com/dh9mpwpxx/image/upload/v1774030563/WhatsApp_Image_2026-03-20_at_11.33.24_PM_wtqqtd.jpg",
+      "imageHint": "violet flowers"
+    },
+    {
+      "id": "pink-rose-cloudinary",
+      "description": "Beautiful pink rose",
+      "imageUrl": "https://res.cloudinary.com/dh9mpwpxx/image/upload/v1774030600/WhatsApp_Image_2026-03-20_at_11.33.24_PM_1_jr5ysu.jpg",
+      "imageHint": "pink rose"
     },
     {
       "id": "addon-choc",
