@@ -1,12 +1,34 @@
 
+"use client";
 import { Card } from "@/components/ui/card";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 const categories = [
-  { title: "Bouquets Under ₹350", subtitle: "+ Delivery", color: "bg-pink-100/50" },
-  { title: "Bouquets Under ₹500", subtitle: "+ Delivery", color: "bg-purple-100/50" },
-  { title: "Bouquets Under ₹750", subtitle: "+ Delivery", color: "bg-rose-100/50" },
-  { title: "Bouquets Under ₹1000", subtitle: "+ Delivery", color: "bg-lavender-100/50" },
+  { 
+    title: "Bouquets at ₹350+", 
+    subtitle: "+ Shipping Charge", 
+    color: "bg-pink-100/50", 
+    href: "/category/350-plus" 
+  },
+  { 
+    title: "Bouquets Under ₹500", 
+    subtitle: "+ Delivery", 
+    color: "bg-purple-100/50", 
+    href: "#shop" 
+  },
+  { 
+    title: "Bouquets Under ₹750", 
+    subtitle: "+ Delivery", 
+    color: "bg-rose-100/50", 
+    href: "#shop" 
+  },
+  { 
+    title: "Bouquets Under ₹1000", 
+    subtitle: "+ Delivery", 
+    color: "bg-lavender-100/50", 
+    href: "#shop" 
+  },
 ];
 
 export default function CategorySelection() {
@@ -19,20 +41,21 @@ export default function CategorySelection() {
       
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {categories.map((cat, idx) => (
-          <Card 
-            key={idx} 
-            className={`group p-6 cursor-pointer border-none shadow-sm hover:shadow-xl transition-all duration-300 rounded-3xl ${cat.color} overflow-hidden relative flex flex-col justify-between h-48`}
-          >
-            <div className="relative z-10">
-              <h4 className="font-bold text-lg text-foreground/80">{cat.title}</h4>
-              <p className="text-sm text-muted-foreground">{cat.subtitle}</p>
-            </div>
-            <div className="mt-4 flex items-center text-primary font-semibold group-hover:translate-x-2 transition-transform">
-              Explore <ChevronRight className="w-4 h-4 ml-1" />
-            </div>
-            
-            <div className="absolute -right-4 -bottom-4 w-24 h-24 bg-white/20 rounded-full group-hover:scale-150 transition-transform duration-500 blur-xl" />
-          </Card>
+          <Link key={idx} href={cat.href} className="block h-full group">
+            <Card 
+              className={`p-6 cursor-pointer border-none shadow-sm hover:shadow-xl transition-all duration-300 rounded-3xl ${cat.color} overflow-hidden relative flex flex-col justify-between h-48`}
+            >
+              <div className="relative z-10">
+                <h4 className="font-bold text-lg text-foreground/80">{cat.title}</h4>
+                <p className="text-sm text-muted-foreground">{cat.subtitle}</p>
+              </div>
+              <div className="mt-4 flex items-center text-primary font-semibold group-hover:translate-x-2 transition-transform">
+                Explore <ChevronRight className="w-4 h-4 ml-1" />
+              </div>
+              
+              <div className="absolute -right-4 -bottom-4 w-24 h-24 bg-white/20 rounded-full group-hover:scale-150 transition-transform duration-500 blur-xl" />
+            </Card>
+          </Link>
         ))}
       </div>
     </section>
