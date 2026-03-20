@@ -55,6 +55,12 @@
       "imageHint": "pink roses"
     },
     {
+      "id": "red-pink",
+      "description": "Red and Pink Bouquet",
+      "imageUrl": "https://res.cloudinary.com/dh9mpwpxx/image/upload/v1774030526/WhatsApp_Image_2026-03-20_at_11.33.23_PM_2_iq0msf.jpg",
+      "imageHint": "red roses"
+    },
+    {
       "id": "addon-choc",
       "description": "Premium Chocolates",
       "imageUrl": "https://picsum.photos/seed/choc/400/400",

@@ -8,6 +8,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 const products = [
   { id: 1, name: "Rose Romance Bouquet", price: "₹349", time: "5-7 days", tag: "Bestseller", imgId: "bouquet-1" },
   { id: 7, name: "Violet Rose", price: "₹350", time: "5-7 days", tag: "New", imgId: "violet-rose" },
+  { id: 9, name: "Red + Pink", price: "₹350", time: "5-7 days", tag: "New", imgId: "red-pink" },
   { id: 8, name: "Pink + Reddish Pink", price: "₹400", time: "5-7 days", tag: "New", imgId: "pink-reddish-pink" },
   { id: 2, name: "Lavender Dream", price: "₹499", time: "5-7 days", tag: "Trending", imgId: "bouquet-2" },
   { id: 3, name: "Blush White Elegance", price: "₹749", time: "5-7 days", tag: "Bestseller", imgId: "bouquet-3" },
