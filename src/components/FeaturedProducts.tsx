@@ -7,12 +7,12 @@ import { ShoppingCart, Star } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const products = [
-  { id: 1, name: "Rose Romance Bouquet", price: "₹349", time: "2-3 hours", tag: "Bestseller", imgId: "bouquet-1" },
-  { id: 2, name: "Lavender Dream", price: "₹499", time: "3-5 hours", tag: "Trending", imgId: "bouquet-2" },
-  { id: 3, name: "Blush White Elegance", price: "₹749", time: "2-4 hours", tag: "Bestseller", imgId: "bouquet-3" },
-  { id: 4, name: "Golden Sunset Blooms", price: "₹899", time: "4-6 hours", tag: "New", imgId: "bouquet-4" },
-  { id: 5, name: "Peony Paradise", price: "₹999", time: "2-3 hours", tag: "Premium", imgId: "bouquet-5" },
-  { id: 6, name: "Wildflower Charm", price: "₹399", time: "3-5 hours", tag: "Trending", imgId: "bouquet-6" },
+  { id: 1, name: "Rose Romance Bouquet", price: "₹349", time: "5-7 days", tag: "Bestseller", imgId: "bouquet-1" },
+  { id: 2, name: "Lavender Dream", price: "₹499", time: "5-7 days", tag: "Trending", imgId: "bouquet-2" },
+  { id: 3, name: "Blush White Elegance", price: "₹749", time: "5-7 days", tag: "Bestseller", imgId: "bouquet-3" },
+  { id: 4, name: "Golden Sunset Blooms", price: "₹899", time: "5-7 days", tag: "New", imgId: "bouquet-4" },
+  { id: 5, name: "Peony Paradise", price: "₹999", time: "5-7 days", tag: "Premium", imgId: "bouquet-5" },
+  { id: 6, name: "Wildflower Charm", price: "₹399", time: "5-7 days", tag: "Trending", imgId: "bouquet-6" },
 ];
 
 export default function FeaturedProducts({ onProductClick }: { onProductClick: (product: any) => void }) {
@@ -37,6 +37,7 @@ export default function FeaturedProducts({ onProductClick }: { onProductClick: (
                   alt={product.name}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  data-ai-hint={img?.imageHint || "flowers bouquet"}
                 />
                 <div className="absolute top-4 left-4 flex flex-col gap-2">
                   <Badge className="bg-white/80 text-primary border-none backdrop-blur-sm rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wider">

@@ -44,6 +44,12 @@
       "imageHint": "wild flowers"
     },
     {
+      "id": "custom-base",
+      "description": "Custom Bouquet Studio",
+      "imageUrl": "https://picsum.photos/seed/custom/800/600",
+      "imageHint": "flower workshop"
+    },
+    {
       "id": "addon-choc",
       "description": "Premium Chocolates",
       "imageUrl": "https://picsum.photos/seed/choc/400/400",

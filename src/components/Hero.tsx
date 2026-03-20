@@ -15,13 +15,14 @@ export default function Hero() {
           fill
           className="object-cover opacity-20 blur-[2px]"
           priority
+          data-ai-hint="flowers bouquet"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/50" />
       </div>
 
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <div className="inline-block px-4 py-1.5 rounded-full glass text-primary font-medium text-sm mb-4 animate-bounce">
-          🌸 Fresh Blooms Delivered Daily
+          🌸 Handcrafted Blooms Delivered with Care
         </div>
         
         <h2 className="font-headline text-5xl sm:text-7xl font-bold leading-tight text-foreground sparkle">
@@ -30,8 +31,8 @@ export default function Hero() {
         </h2>
         
         <p className="text-muted-foreground text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-          Same-day delivery. Fresh, beautiful, unforgettable bouquets designed 
-          for your special moments. Soft luxury in every petal.
+          Curated floral experiences. Fresh, beautiful, unforgettable bouquets designed 
+          for your special moments. Delivered within 5-7 days.
         </p>
 
         <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -46,8 +47,8 @@ export default function Hero() {
         <div className="flex items-center justify-center gap-6 pt-12">
           <div className="flex -space-x-3">
             {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="w-10 h-10 rounded-full border-2 border-background overflow-hidden">
-                <Image src={`https://picsum.photos/seed/user${i}/100/100`} width={40} height={40} alt="User" />
+              <div key={i} className="w-10 h-10 rounded-full border-2 border-background overflow-hidden relative">
+                <Image src={`https://picsum.photos/seed/user${i}/100/100`} fill alt="User" className="object-cover" />
               </div>
             ))}
           </div>

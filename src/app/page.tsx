@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import CategorySelection from "@/components/CategorySelection";
 import FeaturedProducts from "@/components/FeaturedProducts";
+import CustomBouquet from "@/components/CustomBouquet";
 import UrgencyBanner from "@/components/UrgencyBanner";
 import HowItWorks from "@/components/HowItWorks";
 import Reviews from "@/components/Reviews";
@@ -38,6 +39,8 @@ export default function ElegantsBloomsHome() {
         <CategorySelection />
         
         <FeaturedProducts onProductClick={handleProductClick} />
+
+        <CustomBouquet onOrderCustom={handleProductClick} />
         
         <UrgencyBanner />
         

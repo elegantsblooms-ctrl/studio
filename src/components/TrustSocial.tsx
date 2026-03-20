@@ -14,7 +14,7 @@ export default function TrustSocial() {
             <h3 className="font-headline text-4xl font-bold">Why Trust Us?</h3>
             <p className="text-muted-foreground leading-relaxed">
               We specialize in creating moments of pure joy through the art of floral design. 
-              Our commitment to freshness and elegance has made us a favorite choice.
+              Our commitment to quality and elegance has made us a favorite choice for thoughtful gifting.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function TrustSocial() {
               </div>
               <div>
                 <h4 className="font-bold">Freshness Guaranteed</h4>
-                <p className="text-xs text-muted-foreground">Handpicked blooms every morning</p>
+                <p className="text-xs text-muted-foreground">Premium blooms sourced for you</p>
               </div>
             </div>
             <div className="flex items-start gap-4 p-6 bg-white/50 rounded-3xl border border-primary/5">
@@ -42,8 +42,8 @@ export default function TrustSocial() {
                 <ShieldCheck className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h4 className="font-bold">Safe Same-Day Delivery</h4>
-                <p className="text-xs text-muted-foreground">Delivered with care in 2-5 hours</p>
+                <h4 className="font-bold">Reliable Delivery</h4>
+                <p className="text-xs text-muted-foreground">Carefully shipped in 5-7 days</p>
               </div>
             </div>
             <div className="flex items-start gap-4 p-6 bg-white/50 rounded-3xl border border-primary/5">

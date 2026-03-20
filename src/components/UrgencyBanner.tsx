@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Timer, Zap } from "lucide-react";
 
 export default function UrgencyBanner() {
-  const [timeLeft, setTimeLeft] = useState({ h: 1, m: 59, s: 45 });
+  const [timeLeft, setTimeLeft] = useState({ h: 23, m: 59, s: 59 });
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -26,15 +26,15 @@ export default function UrgencyBanner() {
             <Zap className="w-8 h-8 text-primary fill-current" />
           </div>
           <div>
-            <h3 className="font-bold text-2xl text-foreground">Limited Slots Available Today!</h3>
-            <p className="text-muted-foreground italic">Over 15 orders placed in the last hour</p>
+            <h3 className="font-bold text-2xl text-foreground">Next Collection Batch Closing Soon!</h3>
+            <p className="text-muted-foreground italic">Over 15 custom orders placed in the last hour</p>
           </div>
         </div>
 
         <div className="flex items-center gap-4 glass p-4 rounded-[2rem] border-primary/20">
           <Timer className="w-6 h-6 text-primary" />
           <div className="text-center px-4">
-            <p className="text-[10px] uppercase tracking-widest font-bold text-muted-foreground mb-1">Same-Day Delivery ends in</p>
+            <p className="text-[10px] uppercase tracking-widest font-bold text-muted-foreground mb-1">Weekly Order Window ends in</p>
             <div className="flex items-center gap-3 text-2xl font-black text-primary font-mono tabular-nums">
               <span>{String(timeLeft.h).padStart(2, '0')}</span>
               <span className="opacity-50 text-sm">:</span>

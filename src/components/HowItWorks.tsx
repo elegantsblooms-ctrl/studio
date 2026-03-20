@@ -2,10 +2,10 @@
 import { Search, MapPin, CreditCard, Rocket } from "lucide-react";
 
 const steps = [
-  { icon: Search, title: "Pick your bouquet", desc: "Browse our handpicked fresh collections 🌸", color: "bg-pink-100" },
-  { icon: MapPin, title: "Add delivery details", desc: "Where should we send the love? 📍", color: "bg-purple-100" },
+  { icon: Search, title: "Pick your bouquet", desc: "Browse our collections or design your own 🌸", color: "bg-pink-100" },
+  { icon: MapPin, title: "Add delivery details", desc: "Tell us where to send the love 📍", color: "bg-purple-100" },
   { icon: CreditCard, title: "Pay securely", desc: "Fast and safe online transactions 💳", color: "bg-rose-100" },
-  { icon: Rocket, title: "We deliver fast", desc: "Same-day delivery with a smile 🚚💖", color: "bg-lavender-100" },
+  { icon: Rocket, title: "We deliver with care", desc: "Fresh blooms arrived in 5-7 days 🚚💖", color: "bg-lavender-100" },
 ];
 
 export default function HowItWorks() {
@@ -24,11 +24,6 @@ export default function HowItWorks() {
             </div>
             <h4 className="font-bold text-lg mb-2">{step.title}</h4>
             <p className="text-muted-foreground text-sm leading-relaxed">{step.desc}</p>
-            {idx < steps.length - 1 && (
-              <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 opacity-20">
-                {/* Arrow could go here */}
-              </div>
-            )}
           </div>
         ))}
       </div>
