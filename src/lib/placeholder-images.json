@@ -49,6 +49,12 @@
       "imageHint": "violet rose"
     },
     {
+      "id": "pink-reddish-pink",
+      "description": "Pink and Reddish Pink Bouquet",
+      "imageUrl": "https://res.cloudinary.com/dh9mpwpxx/image/upload/v1774030436/WhatsApp_Image_2026-03-20_at_11.33.23_PM_1_yg47x6.jpg",
+      "imageHint": "pink roses"
+    },
+    {
       "id": "addon-choc",
       "description": "Premium Chocolates",
       "imageUrl": "https://picsum.photos/seed/choc/400/400",
