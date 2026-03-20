@@ -7,7 +7,7 @@ import { ShoppingCart, Star } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const products = [
-  { id: 1, name: "Rose Romance Bouquet", price: "₹349", time: "5-7 days", tag: "Bestseller", imgId: "bouquet-1" },
+  { id: 1, name: "Red Rose", price: "₹750", time: "5-7 days", tag: "Bestseller", imgId: "red-rose-premium" },
   { id: 7, name: "Violet Rose", price: "₹350", time: "5-7 days", tag: "New", imgId: "violet-rose" },
   { id: 11, name: "Pink Rose", price: "₹350", time: "5-7 days", tag: "New", imgId: "pink-rose-cloudinary" },
   { id: 9, name: "Red + Pink", price: "₹350", time: "5-7 days", tag: "New", imgId: "red-pink" },

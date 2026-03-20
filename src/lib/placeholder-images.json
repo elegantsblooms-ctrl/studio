@@ -13,6 +13,12 @@
       "imageHint": "pink roses"
     },
     {
+      "id": "red-rose-premium",
+      "description": "Premium Red Rose Bouquet",
+      "imageUrl": "https://res.cloudinary.com/dh9mpwpxx/image/upload/v1774031394/WhatsApp_Image_2026-03-20_at_11.57.54_PM_1_py3dwo.jpg",
+      "imageHint": "red roses"
+    },
+    {
       "id": "bouquet-2",
       "description": "Lavender Dream",
       "imageUrl": "https://picsum.photos/seed/lavender/600/600",
