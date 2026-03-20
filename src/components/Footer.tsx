@@ -14,13 +14,26 @@ export default function Footer() {
             Designed for the modern generation that values soft luxury and fast delivery.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 rounded-full glass border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all shadow-sm">
+            <a 
+              href="https://www.instagram.com/elegants_blooms/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full glass border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all shadow-sm"
+            >
               <Instagram className="w-5 h-5" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full glass border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all shadow-sm">
+            <a 
+              href="https://wa.me/918876585923" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full glass border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all shadow-sm"
+            >
               <MessageSquare className="w-5 h-5" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full glass border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all shadow-sm">
+            <a 
+              href="mailto:elegantsblooms@gmail.com" 
+              className="w-10 h-10 rounded-full glass border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all shadow-sm"
+            >
               <Mail className="w-5 h-5" />
             </a>
           </div>
@@ -41,11 +54,11 @@ export default function Footer() {
           <ul className="space-y-3 text-sm text-muted-foreground">
             <li className="flex items-center gap-2">
               <MessageSquare className="w-4 h-4 text-primary" />
-              WhatsApp: +91 98765 43210
+              WhatsApp: +91 88765 85923
             </li>
             <li className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-primary" />
-              hello@elegantsblooms.com
+              elegantsblooms@gmail.com
             </li>
             <li className="flex items-center gap-2 uppercase tracking-tighter text-[10px] font-bold">
               Available 24/7 for support

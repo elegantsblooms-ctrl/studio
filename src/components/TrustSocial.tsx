@@ -1,4 +1,5 @@
 
+"use client";
 import Image from "next/image";
 import { Instagram, Users, Sparkles, ShieldCheck } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -51,7 +52,7 @@ export default function TrustSocial() {
                 <Instagram className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h4 className="font-bold">Follow @ElegantsBlooms</h4>
+                <h4 className="font-bold">Follow @elegants_blooms</h4>
                 <p className="text-xs text-muted-foreground">Tag us in your special moments</p>
               </div>
             </div>
@@ -76,10 +77,15 @@ export default function TrustSocial() {
             </div>
           </div>
           
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 glass px-6 py-3 rounded-full shadow-2xl z-20 flex items-center gap-2 font-bold text-primary">
+          <a 
+            href="https://www.instagram.com/elegants_blooms/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 glass px-6 py-3 rounded-full shadow-2xl z-20 flex items-center gap-2 font-bold text-primary hover:scale-105 transition-transform"
+          >
             <Instagram className="w-5 h-5" />
-            @ElegantsBlooms
-          </div>
+            @elegants_blooms
+          </a>
         </div>
       </div>
     </section>

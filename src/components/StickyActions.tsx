@@ -1,4 +1,5 @@
 
+"use client";
 import { MessageCircle, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -7,7 +8,9 @@ export default function StickyActions() {
     <>
       {/* Floating WhatsApp */}
       <a 
-        href="#" 
+        href="https://wa.me/918876585923" 
+        target="_blank" 
+        rel="noopener noreferrer"
         className="fixed bottom-24 right-6 z-40 bg-green-500 text-white p-4 rounded-full shadow-2xl shadow-green-500/30 hover:scale-110 transition-transform flex items-center justify-center animate-pulse"
       >
         <MessageCircle className="w-7 h-7 fill-current" />
