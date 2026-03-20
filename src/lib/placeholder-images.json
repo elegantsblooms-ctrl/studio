@@ -61,6 +61,12 @@
       "imageHint": "red roses"
     },
     {
+      "id": "munchy-violet",
+      "description": "Munchy Violet Bouquet",
+      "imageUrl": "https://res.cloudinary.com/dh9mpwpxx/image/upload/v1774030563/WhatsApp_Image_2026-03-20_at_11.33.24_PM_wtqqtd.jpg",
+      "imageHint": "violet flowers"
+    },
+    {
       "id": "addon-choc",
       "description": "Premium Chocolates",
       "imageUrl": "https://picsum.photos/seed/choc/400/400",
