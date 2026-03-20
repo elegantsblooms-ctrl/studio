@@ -1,4 +1,3 @@
-
 {
   "placeholderImages": [
     {
@@ -42,6 +41,12 @@
       "description": "Wildflower Charm",
       "imageUrl": "https://picsum.photos/seed/wildflower/600/600",
       "imageHint": "wild flowers"
+    },
+    {
+      "id": "violet-rose",
+      "description": "Beautiful violet rose",
+      "imageUrl": "https://res.cloudinary.com/dh9mpwpxx/image/upload/v1774030391/WhatsApp_Image_2026-03-20_at_11.33.23_PM_dpzppr.jpg",
+      "imageHint": "violet rose"
     },
     {
       "id": "custom-base",
