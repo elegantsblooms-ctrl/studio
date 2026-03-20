@@ -13,6 +13,7 @@ const products = [
   { id: 9, name: "Red + Pink", price: "₹350", time: "5-7 days", tag: "New", imgId: "red-pink" },
   { id: 10, name: "Munchy Violet", price: "₹400", time: "5-7 days", tag: "New", imgId: "munchy-violet" },
   { id: 8, name: "Pink + Reddish Pink", price: "₹400", time: "5-7 days", tag: "New", imgId: "pink-reddish-pink" },
+  { id: 12, name: "Violet Plus Single White", price: "₹400", time: "5-7 days", tag: "New", imgId: "violet-white-single" },
   { id: 2, name: "Lavender Dream", price: "₹499", time: "5-7 days", tag: "Trending", imgId: "bouquet-2" },
   { id: 3, name: "Blush White Elegance", price: "₹749", time: "5-7 days", tag: "Bestseller", imgId: "bouquet-3" },
   { id: 4, name: "Golden Sunset Blooms", price: "₹899", time: "5-7 days", tag: "New", imgId: "bouquet-4" },
